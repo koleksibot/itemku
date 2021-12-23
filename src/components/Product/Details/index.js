@@ -16,7 +16,7 @@ const Details = () => {
           <FontAwesomeIcon icon={["far", "heart"]} onClick={() => setFavorite(true)} />
         )}
       </div>
-      <div className={cx(Style.item, 'font1')}>366 Diamonds</div>
+      <div className={cx(Style.item, 'font1')}>1000 Diamonds</div>
       <div className={cx(Style.game, 'font2')}>Mobile Legends</div>
       <div className={cx(Style.itemPrice, 'font1')}>
         <span className={cx(Style.price, 'font1')}>Rp100.000 </span>
