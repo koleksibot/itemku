@@ -16,15 +16,15 @@ const Details = () => {
           <FontAwesomeIcon icon={["far", "heart"]} onClick={() => setFavorite(true)} />
         )}
       </div>
-      <div className={cx(Style.item, 'font1')}>1000 Diamonds</div>
-      <div className={cx(Style.game, 'font2')}>Mobile Legends</div>
+      <div className={cx(Style.item, 'font1')}>Security Tech</div>
+      <div className={cx(Style.game, 'font2')}>Jasa Pengamanan Website</div>
       <div className={cx(Style.itemPrice, 'font1')}>
-        <span className={cx(Style.price, 'font1')}>Rp100.000 </span>
-        <span className={cx(Style.descPrice, 'font2')}>per 1 Top Up</span>
+        <span className={cx(Style.price, 'font1')}>Rp2.000.000 </span>
+        <span className={cx(Style.descPrice, 'font2')}>Fast</span>
       </div>
       <div className="font2">
         <div className={Style.discount}>50%</div>
-        <span className={Style.normalPrice}> Rp.200.000 </span>
+        <span className={Style.normalPrice}> Rp.2.000.000 </span>
       </div>
     </div>
   );
